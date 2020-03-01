@@ -1,0 +1,100 @@
+/********************************/
+/*Header*/
+/********************************/
+
+.div_logo_header{ /*color */
+	display: block;
+	text-align: center;
+	background: #6EF6E8;
+}
+
+.div_lang{
+	background: #6EF6E8;
+	height: auto;
+}
+
+.div_logo_header button{
+	float: left;
+}
+
+.brand_header{ /*img size logo*/
+	width: 13.625rem;
+	height: auto;
+}
+
+.brand_header_2{ /*img size logo*/
+	width: 2.25rem;
+	height: auto;
+  	float: right;
+}
+
+.nav_header{ /*color navbar*/
+	background: #99F169;
+}
+
+.ul_header{ /*center navbar*/
+	margin: 0 auto;
+}
+
+.ul_header li{
+	background: #99F169;
+	display: block;
+}
+
+.ul_header li a{
+	font-family: Roboto;
+	font-size: 1.125rem;
+}
+
+.ul_header li:hover{
+	background: #6CD831;
+}
+
+.btn_lang{
+	background-color: none;
+	font-family: Roboto;
+	font-size: 0.8125rem;
+}
+
+.btn_lang:hover{
+	background-color: #2BCEF7;
+	border: none;
+}
+
+.btn_lang:active{
+	background-color: #000000;
+	border: none;
+}
+
+/********************************/
+/*Footer*/
+/********************************/
+
+.copyright{
+	color: #EFEFEF;
+	background: #030303;
+	font-size: 0.625rem;
+	font-weight: normal;
+	padding-left: 0.5rem;
+}
+
+
+.brand_footer{ /*img size logo*/
+	width: 11.625rem;
+	height: auto;
+	text-align: center;
+}
+
+/********************************/
+/*Responsive*/
+/********************************/
+
+@media (min-width: 768px) {
+  .brand_header_2{
+  	display: none;
+  }
+
+  .brand_footer{
+  	float: right;
+  }
+}

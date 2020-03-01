@@ -1,0 +1,13 @@
+h3{
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+
+.error{
+	color: #EE113B;
+}
+
+.exito{
+	color: #564DCB;
+}
