@@ -6,6 +6,8 @@
 	display: block;
 	text-align: center;
 	background: #6EF6E8;
+	/*background-image: url('../../img/bg.jpg');*/
+	height: auto;
 }
 
 .div_lang{

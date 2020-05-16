@@ -1,6 +1,6 @@
 <?php
 
-	$nombre_error = $email_error = $asunto_error = $mensaje_error = "";
+	$nombre_error = $email_error = $asunto_error = $mensaje_error = $mensaje_exito = "";
 	$nombre = $correoDe = $asunto = $mensaje = "";
 
 	if($_SERVER["REQUEST_METHOD"] == "POST"){

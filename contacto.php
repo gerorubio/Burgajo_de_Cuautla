@@ -15,7 +15,7 @@
 
 <div class="container py-2">
 	<div class="row">
-        <div class="col-md-9 mb-md-0 mb-5">
+        <div class="col-12 mb-md-0 mb-5">
             <form id="contact-form" name="contact-form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST">
                 <div class="row">
                     <div class="col-md-6">
